@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="317.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar prefHeight="27.0" prefWidth="317.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="View">
+            <items>
+              <MenuItem mnemonicParsing="false" text="View activities" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9cc3e8" height="58.0" layoutY="27.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="317.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="58.0" layoutY="84.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="317.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9cc3e8" height="58.0" layoutY="137.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="317.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="58.0" layoutY="193.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="317.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9cc3e8" height="58.0" layoutY="250.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="317.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="58.0" layoutY="307.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="317.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9cc3e8" height="58.0" layoutY="363.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="317.0" />
+      <Label layoutX="112.0" layoutY="27.0" text="-Activity-" />
+      <Label layoutX="233.0" layoutY="27.0" text="-Last date-" />
+      <GridPane alignment="CENTER" layoutX="9.0" layoutY="46.0">
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="165.0" minWidth="10.0" prefWidth="72.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label GridPane.columnIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label GridPane.columnIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <CheckBox mnemonicParsing="false">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </GridPane>
+      <GridPane alignment="CENTER" layoutX="9.0" layoutY="98.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="165.0" minWidth="10.0" prefWidth="72.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label GridPane.columnIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label GridPane.columnIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <CheckBox mnemonicParsing="false">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </GridPane>
+      <GridPane alignment="CENTER" layoutX="9.0" layoutY="151.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="165.0" minWidth="10.0" prefWidth="72.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label GridPane.columnIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label GridPane.columnIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <CheckBox mnemonicParsing="false">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </GridPane>
+      <GridPane alignment="CENTER" layoutX="9.0" layoutY="207.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="165.0" minWidth="10.0" prefWidth="72.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label GridPane.columnIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label GridPane.columnIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <CheckBox mnemonicParsing="false">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </GridPane>
+      <GridPane alignment="CENTER" layoutX="9.0" layoutY="267.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="165.0" minWidth="10.0" prefWidth="72.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label GridPane.columnIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label GridPane.columnIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <CheckBox mnemonicParsing="false">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </GridPane>
+      <GridPane alignment="CENTER" layoutX="9.0" layoutY="327.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="165.0" minWidth="10.0" prefWidth="72.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label GridPane.columnIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label GridPane.columnIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <CheckBox mnemonicParsing="false">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </GridPane>
+      <GridPane alignment="CENTER" layoutX="9.0" layoutY="384.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="165.0" minWidth="10.0" prefWidth="72.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label GridPane.columnIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label GridPane.columnIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <CheckBox mnemonicParsing="false">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
