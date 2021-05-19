@@ -37,7 +37,7 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9cc3e8" height="58.0" layoutY="363.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="317.0" />
       <Label layoutX="112.0" layoutY="27.0" text="-Activity-" />
       <Label layoutX="233.0" layoutY="27.0" text="-Last date-" />
-      <GridPane alignment="CENTER" layoutX="9.0" layoutY="46.0">
+      <GridPane alignment="CENTER" disable="true" layoutX="9.0" layoutY="46.0">
         <columnConstraints>
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
           <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
@@ -64,7 +64,7 @@
             </CheckBox>
          </children>
       </GridPane>
-      <GridPane alignment="CENTER" layoutX="9.0" layoutY="98.0">
+      <GridPane alignment="CENTER" disable="true" layoutX="9.0" layoutY="98.0">
          <columnConstraints>
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
@@ -91,7 +91,7 @@
             </CheckBox>
          </children>
       </GridPane>
-      <GridPane alignment="CENTER" layoutX="9.0" layoutY="151.0">
+      <GridPane alignment="CENTER" disable="true" layoutX="9.0" layoutY="151.0">
          <columnConstraints>
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
@@ -118,7 +118,7 @@
             </CheckBox>
          </children>
       </GridPane>
-      <GridPane alignment="CENTER" layoutX="9.0" layoutY="207.0">
+      <GridPane alignment="CENTER" disable="true" layoutX="9.0" layoutY="207.0">
          <columnConstraints>
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
@@ -145,7 +145,7 @@
             </CheckBox>
          </children>
       </GridPane>
-      <GridPane alignment="CENTER" layoutX="9.0" layoutY="267.0">
+      <GridPane alignment="CENTER" disable="true" layoutX="9.0" layoutY="267.0">
          <columnConstraints>
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
@@ -172,7 +172,7 @@
             </CheckBox>
          </children>
       </GridPane>
-      <GridPane alignment="CENTER" layoutX="9.0" layoutY="327.0">
+      <GridPane alignment="CENTER" disable="true" layoutX="9.0" layoutY="327.0">
          <columnConstraints>
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
@@ -199,7 +199,7 @@
             </CheckBox>
          </children>
       </GridPane>
-      <GridPane alignment="CENTER" layoutX="9.0" layoutY="384.0">
+      <GridPane alignment="CENTER" disable="true" layoutX="9.0" layoutY="384.0">
          <columnConstraints>
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="28.0" />
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="200.0" />
